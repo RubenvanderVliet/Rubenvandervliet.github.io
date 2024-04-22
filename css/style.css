@@ -9,8 +9,8 @@ body, html {
 }
 
 .container {
-    max-width: 800px; /* Adjusted max-width */
-    width: 90%; /* Added width for responsiveness */
+    max-width: 800px;
+    width: 90%;
     padding: 20px;
     background-color: rgb(52, 73, 94);
     border-radius: 8px;
@@ -31,16 +31,16 @@ label {
 
 input[type="text"],
 textarea {
-    width: calc(100% - 20px); /* Adjusted width to consider padding */
+    width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.1); /* Added background color with opacity */
-    color: white; /* Adjusted text color */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 
 button, .back-button {
-    width: calc(50% - 10px); /* Adjusted width for two buttons */
+    width: calc(50% - 10px);
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -51,7 +51,7 @@ button, .back-button {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    margin-right: 10px; /* Added margin for spacing */
+    margin-right: 10px;
 }
 
 button:hover, .back-button:hover {
