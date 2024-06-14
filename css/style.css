@@ -1,7 +1,9 @@
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
-
+/*Container styles*/
 .container {
     max-width: 800px;
     width: 90%;
@@ -18,15 +20,6 @@ h1 {
 
 p {
     line-height: 1.6;
-}
-
-.back-button {
-    display: block;
-    width: 100px;
-    margin: 20px auto 0;
-    text-align: center;
-    padding: 10px 0;
-    text-decoration: none;
 }
 
 /* Background image */
@@ -47,9 +40,4 @@ body {
     .container {
         padding: 5px;
     }
-}
-
-.btn-block {
-    display: block;
-    width: 100%;
 }
